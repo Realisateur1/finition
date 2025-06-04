@@ -1,0 +1,35 @@
+form {
+width: 400px;
+margin: auto;
+padding: 20px;
+border: 1px solid #171717;
+border-radius: 5px;
+background-color: #c8c6c6;
+
+}
+label {
+display: block;
+margin-bottom:5px;
+}
+input, select, textarea {
+width: 90%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #2f2d2d;
+border-radius: 4px;
+}
+button {
+padding: 10px 15px;
+background-color: #64b0e6;
+color: rgb(254, 254, 254);
+border:none;
+border-radius: 25px;
+cursor: pointer;
+margin-right: 10px;
+}
+button[type="reset"] {
+background-color: #a47771; 
+}
+.form  {
+    text-align: center;
+   } 

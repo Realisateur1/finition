@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="form">Formulaire de Contact</title>
+<link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+<h1 style="display: block;">Formulaire de Contact</h1>
+<form action="#" method="post">
+<label for="nom">Nom :</label>
+<input type="text" id="nom" name="nom" required>
+
+<label for="prenom">Prenom :</label>
+<input type="text" id="prenom" name="prenom" required>
+
+<label for="Contact">Contact :</label>
+<input type="contact" id="contact" name="contact" required>
+
+<label>Genre :</label>
+<input type="radio" id="homme" name="genre" value="homme" required>
+<label for="homme">Homme</label>
+<input type="radio" id="femme" name="genre" value="femme">
+<label for="femme">Femme</label>
+<label for="specialite">Specialite :</label>
+<select id="specialite" name="specialite" required>
+<option value="">Choisissez une specialite</option>
+<option value="informatique">Informatique</option>
+<option value="mathematiques">Mathematiques</option>
+<option value="sciences">Sciences</option>
+</select>
+<label for="message">Message :</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+<button type="submit">Valider</button>
+<button type="reset">Annuler</button>
+</form>
+</body>
+</html>
